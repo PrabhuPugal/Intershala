@@ -32,5 +32,16 @@ import search from "./search.png"
 import cross from "./close.png"
 import menu from "./menu.png"
 import rightarrow from "./right-arrow.png"
+import api from "./api.png"
+import keyhole from "./keyhole.png"
+import pie from "./pie-chart.png"
+import read from "./read.png"
 
-export {logo,search,cross,menu,rightarrow,APnew,B2C,coinmarket,market,yahoo,readers,todd,nicholas,chris,robert,mad,yana,dataen,security,email,faq,apis,uparrow,downarrow,dropdown6,dropdown3,dropdown5,dropdown1,dropdown2,dropdown4}
+import deep from "./DeepSearch.png"
+import veri from "./EmailVeri.png"
+import richdata from "./RichData.png"
+import report from "./Technologyreports.png"
+import zone from "./ZoneFiles.png"
+import bg from "./bg.jpg"
+
+export {logo,bg,deep,veri,richdata,report,zone,api,keyhole,pie,read,search,cross,menu,rightarrow,APnew,B2C,coinmarket,market,yahoo,readers,todd,nicholas,chris,robert,mad,yana,dataen,security,email,faq,apis,uparrow,downarrow,dropdown6,dropdown3,dropdown5,dropdown1,dropdown2,dropdown4}

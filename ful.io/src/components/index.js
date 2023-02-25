@@ -1,6 +1,6 @@
 import Advertisements from './Advertisements'
 import Business from './Business'
-import Faqs from './Faq'
+import Faq from './Faq'
 import Footer from './Footer'
 import Header from './Header'
 import Hero from './Hero'
@@ -10,7 +10,7 @@ import Testimonials from './Testimonials'
 export {
     Advertisements,
     Business,
-    Faqs,
+    Faq,
     Footer,
     Header,
     Hero,
