@@ -5,7 +5,7 @@ import {marketing} from '../constants'
 const Marketing = () => {
   return (
     <div className={`z-10 flex flex-col  justify-center items-center bg-white mt-10 gap-5 rounded`}>
-      <div className='flex text-xl font-extrabold'>
+      <div className='flex text-xl font-extrabold py-8'>
         Power Your Sales And Marketing Teams
       </div>
       <div className='flex gap-5 flex-wrap justify-center items-center'>

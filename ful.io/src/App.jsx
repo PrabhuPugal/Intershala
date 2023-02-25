@@ -6,8 +6,8 @@ import {bg} from "./assets";
 
 function App() {
   return (
-    <div className="w-full overflow-hidden bg-no-repeat bg-[length:1862px_780px] bg-[url('./assets/bg.jpg')] ">
-      <div className={` ${styles.paddingY}`}>
+    <div className="w-full overflow-hidden bg-no-repeat bg-[length:1864px_1050px] bg-[url('./assets/bg.jpg')] ">
+      <div className={` ${styles.paddingX}`}>
         <Header/>
         <Hero/>
         <Marketing/>

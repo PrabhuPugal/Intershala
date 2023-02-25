@@ -4,7 +4,7 @@ import {read} from '../assets'
 import {business} from '../constants'
 const Business = () => {
   return (
-    <div className={`flex flex-col ${styles.paddingY}`}>
+    <div className={`flex flex-col ${styles.paddingX} `}>
     {business.map((item)=>(
       <div className={`flex ${item.id%2==0? 'sm:flex-row-reverse flex-col':'sm:flex-row flex-col'} justify-center items-center`} key={item.id}>
         <div className='flex'>

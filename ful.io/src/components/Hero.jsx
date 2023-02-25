@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 
 const Hero = () => {
   return (
-    <div className={`flex flex-col  justify-center items-center`}>
+    <div className={`flex flex-col  justify-center items-center ${styles.paddingX}`}>
       <div className='flex border-2 shadow-2xl font-medium rounded-lg px-8 py-2'>
         <span>🎉 97563 new domains added on 24 February 2023</span><span className='flex text-primary cursor-pointer pl-5'> Read More</span>
       </div>

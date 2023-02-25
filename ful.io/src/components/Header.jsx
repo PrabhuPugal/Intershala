@@ -47,7 +47,7 @@ const Header = () => {
         </div>
       </div>
       
-      <div className='flex sm:hidden flex-col'>
+      <div className={`flex sm:hidden flex-col ${styles.paddingX}`}>
       
         {!menuToggle && <div className='flex flex-row justify-between items-center'>
           <img className='flex h-28 w-28' src={logo} alt={'Logo'}/>
