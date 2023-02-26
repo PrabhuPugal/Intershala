@@ -46,5 +46,8 @@ import bg from "./bg.jpg"
 
 import facebook from "./facebook.svg"
 import linkedin from "./linkedin.svg"
+import loc from "./loc.png"
+import call from "./call.png"
+import emailcont from "./emailcont.png"
 
-export {facebook,linkedin,logo,bg,deep,veri,richdata,report,zone,api,keyhole,pie,read,search,cross,menu,rightarrow,APnew,B2C,coinmarket,market,yahoo,readers,todd,nicholas,chris,robert,mad,yana,dataen,security,email,faq,apis,uparrow,downarrow,dropdown6,dropdown3,dropdown5,dropdown1,dropdown2,dropdown4}
+export {loc,call,emailcont,facebook,linkedin,logo,bg,deep,veri,richdata,report,zone,api,keyhole,pie,read,search,cross,menu,rightarrow,APnew,B2C,coinmarket,market,yahoo,readers,todd,nicholas,chris,robert,mad,yana,dataen,security,email,faq,apis,uparrow,downarrow,dropdown6,dropdown3,dropdown5,dropdown1,dropdown2,dropdown4}
