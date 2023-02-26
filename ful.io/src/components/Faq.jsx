@@ -13,6 +13,7 @@ const Faq = () => {
   };
 
   const handleDropClick = (id) => {
+    console.log(id);
     if(!toggle)
     {
       handleSelect(id);

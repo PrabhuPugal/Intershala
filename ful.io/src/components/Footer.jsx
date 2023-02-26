@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex flex-col text-xl justify-center items-center mt-5'>
-        <span className='flex'>Made with ❤ from Bangalore</span>
+        <span className='flex'>Made with ❤️ from Bangalore</span>
         <span className='flex'>By Prabhu</span>
       </div>
     </div>

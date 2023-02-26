@@ -1,8 +1,28 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styles from '../style'
 import Button from '@mui/material/Button';
 import {marketing} from '../constants'
 const Marketing = () => {
+
+  const [toggle,setToggle] = useState(false);
+  const [select,setSelect] = useState(null);
+
+  const handleSelect = (id) => {
+    setSelect(id);
+  };
+
+  const handleDropClick = (id) => {
+    if(!toggle)
+    {
+      handleSelect(id);
+    }
+    else
+    {
+      handleSelect(null);
+    }
+    setToggle(!toggle);
+  };
+
   return (
     <div className={`z-10 flex flex-col  justify-center items-center bg-white mt-10 gap-5 rounded`}>
       <div className='flex text-xl font-extrabold py-8'>
@@ -10,12 +30,14 @@ const Marketing = () => {
       </div>
       <div className='flex gap-5 flex-wrap justify-center items-center'>
         {marketing.map((item)=>(
-          <div className='flex flex-col bg-white shadow-lg border-2 rounded max-w-[20rem] h-[20rem] justify-center items-center' key={item.id}>
+          <div className='flex flex-col bg-white shadow-lg border-2 rounded max-w-[20rem] h-[20rem] justify-center items-center' key={item.id} onMouseEnter={() => handleDropClick(item.id)}
+        onMouseLeave={() => handleDropClick(item.id)}>
             <div className='flex'>
               <img src={item.img} className=' h-32 w-32'/>
             </div>
             <div className='flex flex-col text-center'>
-              <span><span className='flex text-lg font-bold justify-center items-center text-center'>{item.name}</span>{item.desc}</span>
+              <span className='flex text-lg font-bold justify-center items-center text-center'>{item.name}</span>
+              { select===item.id && <span className='flex duration-300 ease-in-out'>{item.desc}</span>}
             </div>
           </div>
         ))}

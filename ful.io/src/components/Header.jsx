@@ -42,7 +42,7 @@ const Header = () => {
             <div className='flex hover:text-primary cursor-pointer'>Blog</div>
         </div>
         <div className='flex text-black font-bold gap-10 justify-center items-center'>
-            <div className='flex'>Login</div>
+            <div className='flex cursor-pointer'>Login</div>
             <Button variant="outlined"><span className='text-primary font-bold'>Sign Up</span></Button>
         </div>
       </div>
