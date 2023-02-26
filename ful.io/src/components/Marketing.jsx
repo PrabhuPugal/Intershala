@@ -24,20 +24,20 @@ const Marketing = () => {
   };
 
   return (
-    <div className={`z-10 flex flex-col  justify-center items-center bg-white mt-10 gap-5 rounded`}>
+    <div className={`z-10 flex flex-col justify-center items-center bg-gray-100 mt-10 gap-5 rounded py-5`}>
       <div className='flex text-xl font-extrabold py-8'>
         Power Your Sales And Marketing Teams
       </div>
       <div className='flex gap-5 flex-wrap justify-center items-center'>
         {marketing.map((item)=>(
-          <div className='flex flex-col bg-white shadow-lg border-2 rounded max-w-[20rem] h-[20rem] justify-center items-center' key={item.id} onMouseEnter={() => handleDropClick(item.id)}
+          <div className={`flex flex-col rounded ${select===item.id?'bg-white rounded-xl':''} transition duration-300 w-[20rem] h-[20rem] justify-center items-center`} key={item.id} onMouseEnter={() => handleDropClick(item.id)}
         onMouseLeave={() => handleDropClick(item.id)}>
             <div className='flex'>
-              <img src={item.img} className=' h-32 w-32'/>
+              <img src={item.img} className=' h-32 w-32 rounded-full bg-white'/>
             </div>
-            <div className='flex flex-col text-center'>
+            <div className='flex flex-col text-center transition duration-300 delay-500'>
               <span className='flex text-lg font-bold justify-center items-center text-center'>{item.name}</span>
-              { select===item.id && <span className='flex duration-300 ease-in-out'>{item.desc}</span>}
+              { select===item.id && <span className='flex p-2 transition duration-300 delay-1000'>{item.desc}</span>}
             </div>
           </div>
         ))}
