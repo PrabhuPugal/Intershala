@@ -215,3 +215,73 @@ export const footerLinks = [
         img:"https://d2liqc29oclqc9.cloudfront.net/images/Readers-02.png?auto=format&fit=max&w=256"
       },
    ];
+
+   export const testimonial=[
+    {
+       id:51,
+       title:"Todd Dunsmore",
+       subtitle:"Doja Marketing/Defi Founder",
+       img:"https://d2liqc29oclqc9.cloudfront.net/images/todd.webp?auto=format&fit=max&w=64",
+       desc:"These web technologies quickly became a game-changer for our business. Lead generation projects that used to take a whole team are completely automatic now. We were able to segment traffic based on location, identify more prospects, and onboard more clients. I can't say enough good things about Ful.io.",
+    },
+    {
+      id:52,
+      title:"Nicholas Altimore",
+      subtitle:"Sirlinksalot",
+      img:"https://d2liqc29oclqc9.cloudfront.net/images/nicholas.webp?auto=format&fit=max&w=64",
+      desc:"Companies need an edge, and Ful.io provided that edge for us. We'd previously used BuiltWith, but the data and analytics capabilities of Ful.io were a better fit for us.",
+   },
+    {
+       id:53,
+       title:"Chris Richards",
+       subtitle:"Utterly Digital",
+       img:"https://d2liqc29oclqc9.cloudfront.net/images/chris.png?auto=format&fit=max&w=64",
+       desc:"We used to manually upload contact details and other data, but it took way too long. We needed a solution that could automate the process and free up resources. Ful.io just works for us. Their technology is incredible.",
+    },
+    {
+      id:54,
+      title:"Robert Kaene",
+      subtitle:"The Wednesday Club",
+      img:"https://d2liqc29oclqc9.cloudfront.net/images/robert.webp?auto=format&fit=max&w=64",
+      desc:"Ful.io's apps and tools have completely changed the way we look at traffic and identify prospects. Before, our R&D team tried BuiltWith, then worked to develop our own technology. But with Ful.io, we can save both time and money.",
+   },
+   {
+    id:55,
+    title:"Mad Singers",
+    subtitle:"SEO Mastery Summit",
+    img:"https://d2liqc29oclqc9.cloudfront.net/images/madsingers.webp?auto=format&fit=max&w=64",
+    desc:"We're always looking for new ways to boost our advertising efforts and analyze websites to improve our processes. Ful.io has been a perfect partner throughout. We've been able to discover more valuable data on prospects than we ever did on our own.",
+  },
+  {
+    id:56,
+    title:"Yana L",
+    subtitle:"SEO Consultant",
+    img:"https://d2liqc29oclqc9.cloudfront.net/images/yana.jpg?auto=format&fit=max&w=64",
+    desc:"Any ecommerce platform not using Ful.io's technologies is seriously missing out. The crawling tool at Ful.io is the best we've used so far. We love that you can pull it up right in the Chrome browser too. Location, contact info, RSS, the speed we can draw in new clients now... Ful.io is amazing",
+ },
+
+];
+
+export const faq=[
+  {
+     id:61,
+     ques:"How much will this cost?",
+     ans:"We offer free and paid plans. Our paid plans start at $49/month or $499/year. We also offer enterprise plans for others building on our technology.",
+  },
+  {
+    id:62,
+    ques:"What information do we provide?",
+    ans:"Our technology reports come with metadata, including phone numbers, emails, IPs, DNS information, hostname, titles, and much more!",
+  },
+  {
+    id:63,
+    ques:"How do you collect your information?",
+    ans:"Our server cluster crawls thousands of sources daily to find active domains. We then segment active domains using our repository of 3000+ technology footprints. We also deploy our crawlers to enrich this segmented technographic data with additional metadata.All our lists are updated daily.",
+  },
+  {
+    id:64,
+    ques:"Can I upload domain lists?",
+    ans:"Yes! All accounts come preloaded with credits to get segmentation and other data for your custom domain lists. We also baked in a 'Deep Search' engine to obtain hard-to-find contact information from domains.",
+  },
+
+];

@@ -44,4 +44,7 @@ import report from "./Technologyreports.png"
 import zone from "./ZoneFiles.png"
 import bg from "./bg.jpg"
 
-export {logo,bg,deep,veri,richdata,report,zone,api,keyhole,pie,read,search,cross,menu,rightarrow,APnew,B2C,coinmarket,market,yahoo,readers,todd,nicholas,chris,robert,mad,yana,dataen,security,email,faq,apis,uparrow,downarrow,dropdown6,dropdown3,dropdown5,dropdown1,dropdown2,dropdown4}
+import facebook from "./facebook.svg"
+import linkedin from "./linkedin.svg"
+
+export {facebook,linkedin,logo,bg,deep,veri,richdata,report,zone,api,keyhole,pie,read,search,cross,menu,rightarrow,APnew,B2C,coinmarket,market,yahoo,readers,todd,nicholas,chris,robert,mad,yana,dataen,security,email,faq,apis,uparrow,downarrow,dropdown6,dropdown3,dropdown5,dropdown1,dropdown2,dropdown4}
